@@ -1,0 +1,144 @@
+#header {
+  background: #fff;
+  box-shadow: 0 0 10px #000;
+  display: flex;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#logo {
+  background-image: url(/images/logo-2.png);
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex: 0 0 330px;
+  padding: 6px 20px;
+}
+
+#menu {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+#menu a {
+  align-items: center;
+  color: #104378;
+  display: inline-flex;
+  font-family: "Cinzel", serif;
+  font-size: 16px;
+  padding: 0 16px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#phone {
+  align-items: center;
+  background: #104378;
+  color: #fff;
+  display: inline-flex;
+  font-family: "Cinzel", serif;
+  margin-left: 16px;
+  padding: 0 16px;
+  white-space: nowrap;
+}
+
+#banner {
+  align-items: center;
+  background-image: url(/images/slider3.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#welcome {
+  padding: 32px;
+  text-align: center;
+}
+
+#areasofpractice {
+  background: #f2f2f2;
+  padding: 32px 16px 16px;
+  text-align: center;
+}
+#areasofpractice-grid {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+#areasofpractice-grid div {
+  align-items: center;
+  background-blend-mode: hard-light;
+  background-color: #000;
+  background-size: contain;
+  color: #fff;
+  display: inline-flex;
+  font-family: "Cinzel", serif;
+  font-size: 28px;
+  height: 240px;
+  justify-content: center;
+  margin: 16px;
+  text-align: center;
+  width: 360px;
+}
+
+#about {
+  padding: 32px;
+  text-align: center;
+}
+
+#bio {
+  display: flex;
+  margin: 40px;
+}
+
+#portrait {
+  background-image: url(/images/Chris-Karsten-Karsten-Law-Offices.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex: 0 0 240px;
+  margin-right: 40px;
+}
+
+#profile {
+  flex: 1;
+}
+
+#profile h4 {
+  padding-top: 24px;
+}
+
+#contact {
+  margin: 32px 40px 40px;
+}
+
+#contact h2 {
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+#contact p {
+  padding-bottom: 20px;
+}
+
+#contact-wrapper {
+  display: flex;
+}
+
+#contact-left {
+  flex: 0 0 280px;
+  margin-right: 40px;
+}
+
+#contact-right {
+  flex: 1;
+}

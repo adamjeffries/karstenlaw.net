@@ -1,6 +1,24 @@
 <!DOCTYPE html>
+<!--
+  Wordpress: 192.0.78.24, 192.0.78.25
+-->
 <html class="no-js" lang="">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-19180315-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-19180315-4");
+    </script>
+
     <meta charset="utf-8" />
     <title>Karsten Law Offices</title>
     <meta
@@ -28,6 +46,16 @@
     <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
+    <div id="header">
+      <div id="logo"></div>
+      <div id="menu">
+        <a href="#header">Home</a>
+        <a href="#areasofpractice">Areas of Practice</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <div id="phone">(312) 803-4966</div>
+      </div>
+    </div>
     <div id="banner">
       <h1>Karsten Law Offices, LLC</h1>
       <div class="subhead">
@@ -55,11 +83,27 @@
     </div>
     <div id="areasofpractice">
       <h2>Areas of Practice</h2>
-      <div>Real Estate</div>
-      <div>Personal Injury</div>
-      <div>Commercial & Business Litigation</div>
-      <div>Business & Estate Planning</div>
-      <div>Family Law Litigation</div>
+      <div id="areasofpractice-grid">
+        <div style="background-image: url(/images/box-realestate.jpg)">
+          Real Estate
+        </div>
+        <div style="background-image: url(/images/box-personal-injury2.jpg)">
+          Personal Injury
+        </div>
+        <div
+          style="background-image: url(/images/box-commercial-real-estate.jpg)"
+        >
+          Commercial & Business Litigation
+        </div>
+        <div
+          style="background-image: url(/images/box-commercial-real-estate.jpg)"
+        >
+          Business & Estate Planning
+        </div>
+        <div style="background-image: url(/images/box-family.jpg)">
+          Family Law Litigation
+        </div>
+      </div>
     </div>
     <div id="about">
       <h2>About Us</h2>
@@ -81,8 +125,8 @@
     </div>
     <div class="divider"></div>
     <div id="bio">
-      <div id="bio-left"></div>
-      <div id="bio-right">
+      <div id="portrait"></div>
+      <div id="profile">
         <h3>Christopher R. Karsten</h3>
         <p>
           Christopher R. Karsten is an experienced attorney with a background as
@@ -109,7 +153,8 @@
         </ul>
       </div>
     </div>
-    <div id="testimonials">
+    <div class="divider"></div>
+    <div id="testimonials" style="display: none">
       <h1>Karsten Law Offices, LLC</h1>
       <p>
         “Chris is wonderful. We had such a positive experience working with him.
